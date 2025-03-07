@@ -1,0 +1,81 @@
+/* Reset some default styles */
+body, h1, h2, p, div, img, a, button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.menu-container {
+    border-collapse: collapse;
+}
+
+.menu-btn {
+    cursor: pointer;
+}
+
+.menu-btn:hover {
+    background-color: #eee;
+}
+
+.menu-text {
+    margin: 0;
+}
+
+.dash-body {
+    margin-top: 15px;
+}
+
+.btn {
+    cursor: pointer;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.btn-primary {
+    background-color: #007bff;
+}
+
+.btn-icon-back {
+    /* Add styling for the back button icon */
+}
+
+/* Add more styles as needed */
+
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Add more popup styling as needed */
